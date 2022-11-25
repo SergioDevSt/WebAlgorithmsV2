@@ -1,0 +1,25 @@
+<div class="activities">
+    <div class="activities__header">
+        <h2>Recommended Rooms</h2>
+    </div>
+    {% for room in recommended_rooms %}
+    <div class="activities__box">
+        <div class="activities__boxHeader roomListRoom__header">
+            <a href="{% url 'room' room.id %}" class="roomListRoom__author">
+                <div class="avatar avatar--small">
+                    <img src="{{room.host.avatar.url}}" />
+                </div>
+                <p>
+                    @{{room.host.name}}
+                    <span>{{room.created|timesince}} ago</span>
+                </p>
+            </a>
+        </div>
+        <div class="activities__boxContent">
+            <p><a href="{% url 'room' room.id %}">{{room.name}}</a></p>
+            <div class="activities__boxRoomContent">{{room.description}}</div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
