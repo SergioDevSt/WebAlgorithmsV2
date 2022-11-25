@@ -84,7 +84,7 @@ def home(request):
     messagesV = Message.objects.all()
     usuarios = User.objects.all()
     
-    print(messagesV)
+    #print(messagesV)
     #Se llena el grafo de vertices, donde los vertices son los usuarios
     for us in usuarios:
         a = Vertice(us.id)
