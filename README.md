@@ -11,7 +11,7 @@
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/SergioDevSt/WebPyAlgorithmsV2
+git clone https://github.com/SergioDevSt/WebAlgorithmsV2
 
 ```
 
