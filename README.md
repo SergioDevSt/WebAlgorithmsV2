@@ -1,8 +1,3 @@
-
-
-<!-- <div align="center">
-<img width="30%" src="WOK"> -->
-
 # Kould
 </div>
 
