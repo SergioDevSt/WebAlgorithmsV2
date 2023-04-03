@@ -4,7 +4,7 @@
 
 ### Live Demo
 
-https://web-production-de9f.up.railway.app/
+
 
 ### Cloning the repository
 
@@ -37,4 +37,4 @@ python manage.py runserver
 #
 
 ### App Preview :
---> WOK: 
+--> WIP: 
